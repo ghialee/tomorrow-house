@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Notosans-KR', sans-serif;
+}
+
+html {
+  font-family: 'Notosans-KR', sans-serif;
+}
+
+body {
+  font-family: 'Notosans-KR', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  background-color: transparent;
+  border: 0;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  list-style: none;
+}
