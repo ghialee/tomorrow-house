@@ -1,8 +1,5 @@
-p{
-    color: yellow;
-    background-color: #fff;
-}
-body{
-    color:red;
-}
+@import './base/fonts';
 
+* {
+  font-family: 'Noto Sans KR', serif;
+}
