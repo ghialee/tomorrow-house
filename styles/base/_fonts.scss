@@ -2,10 +2,10 @@
 @font-face {
   font-family: 'tomrrow';
   src: url('./assets/fonts/tomrrow.eot');
-  src: url('./assets/fonts/tomrrow.eot') format('embedded-opentype'),
+  src: url('./assets/fonts/tomrrow.eot#iefix') format('embedded-opentype'),
     url('./assets/fonts/tomrrow.ttf') format('truetype'),
     url('./assets/fonts/tomrrow.woff') format('woff'),
-    url('./assets/fonts/tomrrow.svg') format('svg');
+    url('./assets/fonts/tomrrow.svg#tomrrow') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
